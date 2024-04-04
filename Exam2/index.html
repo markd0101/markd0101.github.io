@@ -1,28 +1,206 @@
 <html>
 
 <head>
-    <title>MIS 3033 Exam 2 Spring 2024 [Exam Code] Mark Dodson</title>
-    <link rel="icon" href="static/img/head1.png"/>
-    <link rel="stylesheet" href="static/site.css"/>
+    <title>MIS 3033 Exam 2 Spring 2024 [QRCA] Mark Dodson</title>
+    <link rel="icon" href="static/img/head1.png" />
+    <link rel="stylesheet" href="static/site.css" />
 
     <style>
+        #main {
+            width: 800px;
+            border-style:solid;
+            border-width:1px;
+            border-color:lightgrey;
+            border-radius:5px;  
+        }
 
+        #footer {
+            font-weight: bold;
+            font-size: 20px;
+            color: grey;
+            align-content: end;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+        }
+
+        #header {
+            width: 200px;
+            height: 70px;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+        }
+
+        .title1 {
+            text-transform: uppercase;
+            background-color: lightskyblue;
+            border-radius: 5px;
+        }
+
+        #leftdiv {
+            width: 280px;
+        }
+
+        #content1 {
+            display: flex;
+            flex-direction: row;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+        }
+
+        #rightdiv {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #header {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+        }
+
+        #downdiv {
+            width: 510px;
+            height: 160px;
+            display: flex;
+            flex-direction: row;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+        }
+
+        #name {
+            display: flex;
+            flex-direction: row;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+        }
+
+        #content2
+        {
+            height:80px;
+            display:flex;
+            flex-direction:column;
+        }
+
+        #updiv
+        {
+            width:510px;
+            height:110px;
+            
+        }
+
+        #down
+        {
+            display:flex;
+            flex-direction:column;
+        }
+        
     </style>
 
 </head>
 
 <body>
-    [Exam Code]
-    <img src="static/img/a.svg" style="height:50px;"/>
-    <img src="static/img/b.svg" style="height:50px;"/>
-    <img src="static/img/css.svg" style="height:50px;"/>
-    <img src="static/img/head1.png" style="height:50px;"/>
-    <img src="static/img/head2.png" style="height:50px;"/>
-    <img src="static/img/html.svg" style="height:50px;"/>
-    <img src="static/img/javascript.svg" style="height:50px;"/>
-    <img src="static/img/linkedin.png" style="height:50px;"/>
-    <img src="static/img/logo.svg" style="height:50px;"/>
-    <img src="static/img/sqlite.svg" style="height:50px;"/>
+    [QRCA]
+    <div id="main">
+
+        <div id="header">
+            <div>
+                MIS 3033 Exam 2<br />
+                Mark Dodson
+            </div>
+            <div>
+                [QRCA]
+            </div>
+
+        </div>
+
+        <div id="content1">
+            <div id="topdiv">
+                
+                    
+                <div id="name">
+                    <img src="static/img/head1.png" style="height:60px;border-radius:50%;" />
+                    <div>Mark Dodson</div><br />
+                    <div>MIS Student</div><br />
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <img src="static/img/linkedin.png" style="width:30px;" />
+                    </a>
+                </div>
+                 
+                    
+
+                
+            </div>
+           
+
+            <div id="rightdiv">
+                <div id="updiv">
+                    <span class="title1">ABOUT ME:</span>
+                    <br />
+                    I am a MIS student. I like programming and I am good at C#. I learned Entity<br />
+                    Framework to Database Manipulations. I know HTML, CSS, and I started to<br />
+                    learn JavaScript. It is fun. Later I will learn C# .NET MVC dynamic web app<br />
+                    development and Web API development.
+                </div>
+                <div id="down">
+                    <span class="title1">ACHIEVEMENTS</span>
+                    <div id="downdiv">
+                        <div>
+                            <img src="static/img/html.svg" style="height: 100px; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px; " />
+                            HTML
+                        </div>
+                        <div>
+                            <img src="static/img/css.svg" style="height: 100px; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px; " />
+                            CSS
+                        </div>
+                        <div>
+                            <img src="static/img/javascript.svg" style="height: 100px; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px; " />
+                            JavaScript
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="content2">
+            <div id="leftdiv">
+                <span class="title1">RECENT NEWS</span>
+                <ul style="height:40px;">
+                    <li>Learned C#</li>
+                    <li>Learned Entity Framework</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div id="footer">
+            Developed by Mark Dodson here for MIS 3033 Exam 
+            <img src="static/img/logo.svg" style="height:50px;" />
+            
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+   
 </body>
 
 </html>
